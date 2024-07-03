@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>사용자 정보 입력받기</title>
+</head>
+<body>
+    <h1 id="name"></h1>
+    <p id="animal"></p>
+    <p id="fruit"></p>
+    
+
+    <script>
+        let name = window.prompt("이름이 뭐예요?");
+        const nameEle=window.document.querySelector('#name');
+        nameEle.textContent = `1. 이름 : ${name}`;
+
+        let animal = window.prompt("제일 좋아하는 동물이 뭐예요?");
+        const animalEle = window.document.querySelector('#animal');
+        animalEle.textContent = `2. 좋아하는 동물 : ${animal}`;
+        
+        let fruit = window.prompt("제일 좋아하는 과일이 뭐예요?");
+        const fruitEle = window.document.querySelector('#fruit');
+        fruitEle.textContent = `3. 좋아하는 과일 : ${fruit}`;
+
+    </script>
+        
+    
+</body>
+</html>

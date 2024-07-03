@@ -1,0 +1,13 @@
+
+
+#modeBtn{position: fixed; right: 5%; top: 10px; border: none; background-color: #000; color: #fff; border-radius: 5px; padding: 0 5px;}
+
+.goods-add{display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center;}
+h3.mt-5{}
+
+#current-datetime{height: 33px; max-width: 250px; margin: 0 10px; font-size: 24px; font-weight: bold; line-height: 33px;}
+.topBox{height: 33px; }
+.topBox>.joinBtn{height: 33px; border: 1px solid #3d6ae9; border-radius: 5px; padding: 0 5px; background: #91b4f3; font-weight: 600;}
+.form1{width: 100%;}
+
+.scBtn{border: 1px solid #3d6ae9; border-radius: 5px; background: #91b4f3;  padding: 0 5px;}
