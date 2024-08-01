@@ -1,0 +1,15 @@
+
+1. 터미널에 가상환경 생성, 활성화 하기
+python3 -m venv .venv  
+source .venv/bin/activate
+
+2. 파이썬에서 경로 에러 뜰때 지정하기
+export PYTHONPATH=/Users/mac/Documents/OZ/OZ_BE_Challenge/5.flask
+cd Documents/OZ/OZ_BE_Challenge/5.flask
+
+
+3. 임포트 안될때 (플라스크, 스키마 등등)
+가상환경 킨상태로 (.venv) 터미널에 아래 입력/
+pip3 install flask
+pip3 install flask_smorest
+pip3 install schemas

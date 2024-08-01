@@ -2,12 +2,12 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
-@app.route('/user')
+@app.route('/')
 def index():
     users = [
-        {"user_job": "traveler", "name": "Alex"},
-        {"user_job": "photographer", "name": "Sam"},
-        {"user_job": "gourmet", "name": "Chris"}
+        {"user_job": "회사원", "name": "강과장"},
+        {"user_job": "사진사", "name": "송포토"},
+        {"user_job": "프로그래머", "name": "김코딩"}
     ]
     return render_template('index.html', users=users)
 
